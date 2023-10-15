@@ -16,4 +16,6 @@ During COVID-19, reliance on online platforms skyrocketed. Unfortunately, many w
 
 `all-domains-30-days.json`: Downloaded as a CSV from [https://analytics.usa.gov/data/](https://analytics.usa.gov/data/), converted to JSON.
 
-`codeAda.html`: HTML file for locally hosted website.
+`codeAda.html`: HTML file for locally hosted website that displays MongoDB Dashboard.
+
+`style.css`: CSS file for locally hosted website that displays MongoDB Dashboard.
