@@ -19,7 +19,7 @@ async function addData(client, newData) {
 
 // putting data into MongoDB database
 async function main() {
-    const uri = "mongodb+srv://<username>:<password>@wavefedwebsitedata.tnc4kdt.mongodb.net/?retryWrites=true&w=majority";
+    const uri = "mongodb+srv://<generateMongoDBLink>";
     const client = new MongoClient(uri);
 
     //formatting data for websites
