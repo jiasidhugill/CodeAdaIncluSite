@@ -14,7 +14,7 @@ async function findWebsite(client, url) {
 
 // putting data into MongoDB database
 async function main() {
-    const uri = "mongodb+srv://jiasg2:ac6YYSDlsGKX7gG1@wavefedwebsitedata.tnc4kdt.mongodb.net/?retryWrites=true&w=majority";
+    const uri = "mongodb+srv://<generateMongoDBLink>";
     const client = new MongoClient(uri);
 
      //formatting data for websites
