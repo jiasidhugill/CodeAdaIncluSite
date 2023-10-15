@@ -8,3 +8,7 @@ During COVID-19, reliance on online platforms skyrocketed. Unfortunately, many w
 **Our future goals** are to create a platform that can identify alternatives to an inaccessible government website; after, we hope to create an algorithm that can automate adding aria links, subtitles, and other accessibility features to a non-complying website.
 
 ## File Descriptions
+`get-data.js`: Gets data from the API.
+`clean-data.js`: Has functions to manage and edit the collection in MongoDB.
+`use-data.js`: Has functions to analyze data directly from MongoDB.
+`all-domains-30-days.json`: Downloaded as a CSV from [https://analytics.usa.gov/data/](https://analytics.usa.gov/data/), converted to JSON.
